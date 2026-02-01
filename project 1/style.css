@@ -1,0 +1,22 @@
+.container{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.card img{
+    width: 100%;
+}
+
+.more{
+    display: block;
+    margin-top: 10px;
+    color:blueviolet;
+    text-decoration: none;
+}
