@@ -80,7 +80,7 @@ body{
 .card{
     background-color: darkslategrey;
     width: 112px;
-    height: 200px;
+    height: 150px;
 }
 
 .moon{
@@ -107,7 +107,7 @@ body{
 
 .mini{
     background-color: rgb(22, 57, 86);
-    height: 50px;
+    height: 70px;
     width: 153px;
 }
 
