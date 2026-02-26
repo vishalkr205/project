@@ -42,8 +42,8 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": -91.59999084472656,
-			"y": -226.40000915527344,
+			"x": -88.35070992513761,
+			"y": -224.2338356476552,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -79,8 +79,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -96.20592534707191,
-			"y": 70.20000457763672,
+			"x": -86.45816522095163,
+			"y": -227.6477371791404,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -103,8 +103,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 232.39999389648438,
-			"y": 291.20001220703125,
+			"x": 371.59835353456646,
+			"y": 356.34080319806577,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
@@ -187,9 +187,7 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:dhKDZ8jXfmXsdAkvN04v2"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -215,8 +213,45 @@
 			"meta": {}
 		},
 		{
-			"x": 326.0000457763672,
-			"y": -212.7999725341797,
+			"x": 132.33946193269503,
+			"y": -207.48309590908252,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:C8W3YirG9p3-SCKzw_E_0",
+			"type": "geo",
+			"props": {
+				"w": 168.8000030517578,
+				"h": 240.00001525878906,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a9sPxzSG",
+			"typeName": "shape"
+		},
+		{
+			"x": 324.9169796807196,
+			"y": -211.7168857803706,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -305,9 +340,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -322,7 +355,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1188,
-				"h": 702.4000244140625
+				"h": 553.6000366210938
 			},
 			"insets": [
 				false,
@@ -339,9 +372,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": null,
 			"openMenus": [],
-			"isChangingStyle": true,
+			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,

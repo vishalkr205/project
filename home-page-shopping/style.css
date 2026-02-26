@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "SN Pro", sans-serif;
+}
+
+#container{
+    height: auto;
+    width: auto;
+    background-color: rgba(165, 42, 42, 0.504);
+    display: grid; 
+    grid-template-columns: 600px 500px;
+    gap: 10px;
+    padding:  10px 15px;
+}
+
+.large{
+    background-color: rgba(171, 59, 74, 0.327);
+    margin-top: 15px;
+    display: flex;
+    padding: 14px;
+    flex-wrap: wrap;
+}
+
+.twin{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 500px 300px;
+    background-color: rgba(139, 0, 0, 0.43);
+}
+
+
+
+
+
+.top{
+    height: 250px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+.middle{
+    height: 500px;
+    width: 600px;
+    background-color: darkturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.dark{
+    height: 200px;
+    width: 260px;
+    background-color: darkorange;
+}
+
+.blue{
+    height: 110px;
+    width: 260px;
+    background-color: lightcoral;
+}
+
+.medium{
+    background-color: rgb(9, 0, 40);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.card{
+    background-color: darkslategrey;
+    width: 112px;
+    height: 200px;
+}
+
+.moon{
+    background-color: rgb(3, 42, 65);
+    height: 150px;
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(27, 81, 114);
+}
+
+.add2{
+    width: 320px;
+    height: 150px;
+    background-color: rgb(15, 95, 100);
+}
+
+.mini{
+    background-color: rgb(22, 57, 86);
+    height: 50px;
+    width: 153px;
+}
+
+
+.small{
+    background-color: rgb(4, 45, 65);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.review{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(7, 69, 100);
+}
+
+.waranty{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(14, 50, 68);
+}
+
+.subscribe{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(40, 77, 96);
+}
+
+span{
+    text-transform: capitalize;
+}
+
+span p{
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(48, 47, 47);
+}
+
+span h2{
+    margin: 5px;
+}
+
+span button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(250, 240, 255, 0.322);
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
