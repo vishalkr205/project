@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 400px;
+    width: 700px;
+    background-color: rgb(0, 36, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box{
+    height: 40%;
+    width: 45%;
+    background-color: rgb(29, 52, 102);
+}
+
+.foot{
+    width: 92%;
+    height: 40%;
+    background-color: darkgray;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: rgba(31, 0, 85, 0.655);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
