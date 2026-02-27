@@ -197,9 +197,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 656.7914389384928,
-			"y": 957.0825183642453,
-			"z": 0.21504925669764366,
+			"x": 497.39142572841183,
+			"y": 572.3760510218694,
+			"z": 0.3800829007448473,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -448,8 +448,10 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:H710jXC9W0RHi1er45syb"
+			],
+			"hoveredShapeId": "shape:GALGkC_IRDsJ9vNFdstKC",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -459,17 +461,17 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": -217.45327890278634,
-			"y": -313.66496879048873,
-			"rotation": 0,
+			"x": -217.45327890278574,
+			"y": -324.715141479717,
+			"rotation": 7.91033905045424e-16,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
 			"id": "shape:H710jXC9W0RHi1er45syb",
 			"type": "image",
 			"props": {
-				"w": 1600,
-				"h": 1200,
+				"w": 1629.4671271712737,
+				"h": 1222.1003453784551,
 				"assetId": "asset:-909701049",
 				"playing": true,
 				"url": "",
@@ -794,7 +796,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "ew-resize",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -804,8 +806,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 507.3333435058594,
-				"h": 558
+				"w": 784,
+				"h": 685.6000366210938
 			},
 			"insets": [
 				false,
@@ -820,9 +822,9 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.5,
+			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": null,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,

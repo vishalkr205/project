@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: rgb(109 41 41);
+    background-color: #6d2929;
+    
+}
+
+
+
+/* Content Box */
+.content-box{
+    width: 40%;
+    border: 2px dashed gray;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Cards Section */
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* Individual Card */
+.card{
+    width: 30%;
+    height: 60vh;
+    border: 3px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card Header */
+.card-header{
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+}
+
+/* Card Body */
+.card-body{
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+
+/* Button Box */
+.button-box{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+/*  1.camelcase */
+ex- let studentName = "John";
+funtion calculateTotalMarks()
+
+
+/* 2. pascalCase(UpperCamelcase)*/
+ex- funtion UserProfile() {....}
+    class DatabaseConnection {....}
+
+
+    /* snake_case */
+    ex-  user_login_cout=10
+       SELECT *FORM user_profile;
+
+       /* kabab-case(Spinal Case) */
+       ex-   .main-header-container {.....}
+            https://website.com/blog/how-to-code
+
+            /* UPPER_SNAKE_CASE(Screaming Snake Case )*/
+            ex-   const MAX_LOGIN_ATTEMTS=5;
+               API_KEY = "XYZ123";
+
+ 
+
+
