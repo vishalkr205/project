@@ -12,7 +12,7 @@ body{
 
 #container{
     height: auto;
-    width: auto;
+    width: 1150px;
     background-color: rgba(165, 42, 42, 0.504);
     display: grid; 
     grid-template-columns: 600px 500px;
@@ -24,6 +24,7 @@ body{
     background-color: rgba(171, 59, 74, 0.327);
     margin-top: 15px;
     display: flex;
+    flex-direction: row;
     padding: 14px;
     flex-wrap: wrap;
 }
@@ -48,24 +49,28 @@ body{
 .middle{
     height: 500px;
     width: 600px;
-    background-color: darkturquoise;
+    background-color: rgba(95, 4, 33, 0.567);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px 10px;
+    gap: 0px;
+    padding: 0px 15px ;
 }
 
 .dark{
+
     height: 200px;
-    width: 260px;
+    width: 265px;
+    margin: 10px 0px;
     background-color: darkorange;
 }
 
 .blue{
-    height: 110px;
-    width: 260px;
+    height: 120px;
+    width: 265px;
+    margin: 10px 0px;
     background-color: lightcoral;
 }
 
@@ -84,7 +89,7 @@ body{
 }
 
 .moon{
-    background-color: rgb(3, 42, 65);
+    background-color: rgb(3, 20, 30);
     height: 150px;
     width: 480px;
     display: flex;
@@ -118,7 +123,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .review{
@@ -164,4 +169,10 @@ span button{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.mini span{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(204, 14, 14);
 }
