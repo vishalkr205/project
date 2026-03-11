@@ -124,6 +124,11 @@ button{
     -o-border-radius: 20px;
 }
 
+<<<<<<< HEAD
+
+input [ol]{
+    color: aqua;
+=======
 input[type="text"],input[type="number"]{
     margin-left: 20px;
     margin-top: 10px;
@@ -135,4 +140,5 @@ input[type="text"],input[type="number"]{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+>>>>>>> e804569e3728f1fc9334489d9497bd4cd70ca8d7
 }

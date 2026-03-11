@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(18, 76, 99);
+    display: grid;
+    grid-template-rows: 150px 500px 150px ;
+    box-shadow: 2px 2px 50px 50px rgb(2, 42, 59), -2px -2px 50px -50px rgb(151, 182, 196) ;
+}
+
+.nav{
+    
+    background-color: rgb(18, 55, 98);
+    box-shadow: 2px 2px 5px 50px rgb(234, 234, 244);
+}
+
+.sidebar{
+    background-color: rgb(16, 79, 92);
+}
+
+.home{
+    background-color: rgb(22, 95, 126);
+}
+
+.footer{
+    background-color: rgb(18, 55, 98);
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
