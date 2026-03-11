@@ -241,6 +241,7 @@
 			"typeName": "shape"
 		},
 		{
+<<<<<<< HEAD
 			"x": 619,
 			"y": 234.99999618530273,
 			"rotation": 0,
@@ -323,6 +324,11 @@
 			"x": 1094.9156294717036,
 			"y": 531.549299227504,
 			"z": 0.3174880232030322,
+=======
+			"x": 497.39142572841183,
+			"y": 572.3760510218694,
+			"z": 0.3800829007448473,
+>>>>>>> a5e7b50b985b49da6b1d845f1cf49a2cb8c251a4
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -670,8 +676,15 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
+<<<<<<< HEAD
 			"selectedShapeIds": [],
 			"hoveredShapeId": null,
+=======
+			"selectedShapeIds": [
+				"shape:H710jXC9W0RHi1er45syb"
+			],
+			"hoveredShapeId": "shape:GALGkC_IRDsJ9vNFdstKC",
+>>>>>>> a5e7b50b985b49da6b1d845f1cf49a2cb8c251a4
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -681,6 +694,7 @@
 			"typeName": "instance_page_state"
 		},
 		{
+<<<<<<< HEAD
 			"meta": {},
 			"id": "page:EHa6bLWlYmNIYxVvaS9-a",
 			"name": "Page 2",
@@ -728,14 +742,19 @@
 			"x": -207.85318124653634,
 			"y": -329.66496879048873,
 			"rotation": 0,
+=======
+			"x": -217.45327890278574,
+			"y": -324.715141479717,
+			"rotation": 7.91033905045424e-16,
+>>>>>>> a5e7b50b985b49da6b1d845f1cf49a2cb8c251a4
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
 			"id": "shape:H710jXC9W0RHi1er45syb",
 			"type": "image",
 			"props": {
-				"w": 1600,
-				"h": 1200,
+				"w": 1629.4671271712737,
+				"h": 1222.1003453784551,
 				"assetId": "asset:-909701049",
 				"playing": true,
 				"url": "",
@@ -1278,13 +1297,15 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
+<<<<<<< HEAD
 				"type": "move",
+=======
+				"type": "ew-resize",
+>>>>>>> a5e7b50b985b49da6b1d845f1cf49a2cb8c251a4
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -1294,8 +1315,13 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
+<<<<<<< HEAD
 				"w": 1123.2000732421875,
 				"h": 702.4000244140625
+=======
+				"w": 784,
+				"h": 685.6000366210938
+>>>>>>> a5e7b50b985b49da6b1d845f1cf49a2cb8c251a4
 			},
 			"insets": [
 				false,
