@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 800px;
+    width: 1200px;
+    
+    display: grid;
+    grid-template-columns: 400px 800px;
+    grid-template-areas:   
+    "header header"
+    "sidebar content"
+    "footer footer";
+}
+
+.nav{
+    background-color: blueviolet;
+    grid-area: header;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(189, 226, 43);
+}
+
+.home{
+    grid-area: content;
+    background-color: blue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(47, 7, 85);
+}
