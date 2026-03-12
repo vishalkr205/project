@@ -19,6 +19,7 @@ body{
     "header header"
     "sidebar content"
     "footer footer";
+    column-gap: 10px;
 }
 
 .nav{
