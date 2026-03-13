@@ -16,13 +16,18 @@ body{
     background-color: rgb(18, 76, 99);
     display: grid;
     grid-template-rows: 150px 500px 150px ;
-    box-shadow: 2px 2px 50px 50px rgb(2, 42, 59), -2px -2px 50px -50px rgb(151, 182, 196) ;
+    border-radius: 37px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  33px 33px 66px #bebebe,
+                -33px -33px 66px #ffffff;
+    /* box-shadow: 2px 2px 30px 30px rgb(2, 42, 59),
+                -2px -2px 30px 30px rgb(151, 182, 196) ; */
 }
 
 .nav{
     
     background-color: rgb(18, 55, 98);
-    box-shadow: 2px 2px 5px 50px rgb(234, 234, 244);
+    
 }
 
 .sidebar{

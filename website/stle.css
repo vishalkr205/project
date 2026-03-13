@@ -10,33 +10,39 @@ body{
 }
 
 .main{
-    height: 800px;
+    height: 100vh;
     width: 1200px;
     
     display: grid;
-    grid-template-columns: 400px 800px;
+    grid-template-columns: 100px 800px;
     grid-template-areas:   
     "header header"
     "sidebar content"
     "footer footer";
+    
 }
 
 .nav{
     background-color: blueviolet;
     grid-area: header;
+    height: 100px;
 }
 
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(189, 226, 43);
+    height: calc(100vh - 140px);
+
 }
 
 .home{
     grid-area: content;
     background-color: blue;
+    height: calc(100vh - 140px);
 }
 
 .footer{
     grid-area: footer;
     background-color: rgb(47, 7, 85);
+    height: 40px;
 }
