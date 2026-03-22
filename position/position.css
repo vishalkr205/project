@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(75, 4, 16);
+}
+.box2{
+        height: 200vh;
+    width: 100vw;
+    background-color: #00244a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    position: relative;
+}
+.box2 button{
+    height: 30px;
+    width: 80px;
+    /* color: rgba(240, 248, 255, 0); */
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: 2px solid black;
+    backdrop-filter: blur(5px);
+    background-color: none;
+    
+}
+.box3{
+        height: 100vh;
+    width: 100vw;
+    background-color: #036862;
+}
